@@ -1,0 +1,68 @@
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #ffffff;
+    color: hsl(0, 0%, 0%);
+    margin: 0;
+    padding: 20px;
+}
+
+header {
+    background-color: #d16a0a;
+    color: #fff;
+    padding: 10px 0;
+    text-align: center;
+}
+
+nav {
+    margin: 20px 0;
+    text-align: center;
+}
+
+nav a {
+    margin: 0 15px;
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+}
+
+section {
+    margin: 20px 0;
+}
+
+.personaje-grid {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: space-around;
+}
+
+.personaje {
+    width: 150px;
+    text-align: center;
+}
+
+.personaje img {
+    height: 130px;
+    border-radius: 8px;
+}
+
+#sobre img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+    margin-top: 15px;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+    margin-top: 20px;
+}
+
+.flex{
+    display: flex;
+    justify-content: center;
+}
